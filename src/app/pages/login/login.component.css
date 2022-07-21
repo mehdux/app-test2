@@ -1,0 +1,133 @@
+img {
+  /* Main version */
+
+  width: 214px;
+  height: 94px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 25px auto 0;
+}
+
+.error {
+  color: tomato;
+  font-size: 12px;
+  padding-top: 4px;
+}
+
+.container {
+  border: 1px solid transparent;
+  height: 100vh;
+  display: table;
+}
+
+.ctn_login {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.ctn_login_form {
+  border: 1px solid #e5e5e5;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px 25px 0px 25px;
+  border-radius: 24px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.ctn_connexion {
+  text-align: center;
+}
+
+.titre_connexion {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0px 0px 5px 0px;
+}
+
+.text_connexion {
+  font-size: 16px;
+}
+
+.input_login[type="text"],
+.input_login[type="password"] {
+  width: 100%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+  background-color: white !important;
+}
+
+.inputWithIcon_login input[type="text"],
+.inputWithIcon_login input[type="password"] {
+  padding-left: 40px;
+}
+
+.inputWithIcon_login {
+  position: relative;
+}
+
+.inputWithIcon_login i {
+  position: absolute;
+  left: 0;
+  top: 8px;
+  padding: 11px 9px;
+  transition: 0.3s;
+}
+
+.text-white {
+  width: 100%;
+  margin: 10px 0px 0px 0px;
+}
+
+.ctn_text_mot_passe_oublie {
+  text-align: center;
+  margin: 25px 0px 0px 0px;
+}
+
+.text_mot_passe_oublie {
+  text-decoration: none;
+  color: black;
+}
+
+.ctn_text_contactez_nous {
+  text-align: center;
+  margin: 15px 0px 25px 0px;
+}
+
+.text_contactez_nous {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  color: #666666;
+}
+
+.icon_phone {
+  position: absolute;
+  margin: 4px 0px 0px -27px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #666666;
+}
+
+.text_num_phone {
+  font-weight: bold;
+  margin: 0px 0px 0px 15px;
+  font-size: 14px;
+}

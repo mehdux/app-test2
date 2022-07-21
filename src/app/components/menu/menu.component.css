@@ -1,0 +1,204 @@
+.ctn_style_input1 {
+  padding-right: 5px;
+}
+
+.ctn_style_input2 {
+  padding-left: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .ctn_style_input1 {
+    padding-right: 15px;
+  }
+
+  .ctn_style_input2 {
+    padding-left: 15px;
+  }
+}
+
+.ctn_style_input_defaut {
+  margin: 10px 0px 0px 0px;
+}
+
+.ctn_style_input_phone {
+  margin: 20px 0px 0px 0px;
+}
+
+.titre_new_course {
+}
+.ctn_titre_info {
+  margin: 0px 0px 20px 0px;
+}
+.ctn_titre_info2 {
+  margin: 20px 0px 0px 0px;
+}
+.style_label {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.titre_info {
+  color: grey;
+  font-weight: 500;
+}
+
+.ctn_menu {
+  margin-right: 0px;
+}
+
+input[type="text"] {
+  width: 100%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+  background-color: white !important;
+}
+
+.inputWithIcon input[type="text"] {
+  padding-left: 40px;
+  top: 12px;
+  font-size: 12px;
+  border: 1px solid transparent;
+  position: absolute;
+}
+
+.inputWithIcon input[type="text"]::placeholder {
+  color: #ff7d00;
+  opacity: 1; /* Firefox */
+}
+
+.inputWithIcon input[type="text"]:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #ff7d00;
+}
+
+.inputWithIcon input[type="text"]::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #ff7d00;
+}
+
+.inputWithIcon {
+  position: relative;
+  border: 1px solid gray;
+  height: 60px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.label_special {
+  z-index: 1;
+  position: absolute;
+  left: 41px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #abaaaa;
+  top: 12px;
+}
+
+.icon_special {
+  color: #ff7d00;
+  font-weight: 500;
+  font-size: 16px;
+  position: absolute;
+  top: 16px;
+  left: 15px;
+}
+
+.inputWithIcon i {
+  position: absolute;
+  left: 0;
+  top: 0px;
+  padding: 11px 9px;
+  transition: 0.3s;
+  z-index: 1;
+}
+.dropdown-toggle {
+  width: 100%;
+  text-align: left;
+  border-radius: 5px;
+  background-color: white;
+  color: #404040;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.dropdown-toggle:hover {
+  background-color: #f7f7f7;
+  color: #404040;
+}
+
+.dropdown-toggle:focus {
+  background-color: #f7f7f7 !important;
+  color: #404040 !important;
+}
+
+.dropdown-toggle::after {
+  position: absolute;
+  right: 12px;
+  top: 16px;
+}
+
+.dropdown-menu {
+  width: 100%;
+}
+
+.dropdown-item {
+  padding: 0px 13px 0px 11px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.dropdown-item:focus {
+  background-color: #f7f7f7 !important;
+}
+
+.demo {
+  float: right !important;
+  margin: 0px 20px 0px 0px !important;
+}
+
+.icon1 {
+  margin: 13px 0px 0px 0px;
+  font-size: 17px;
+  color: #706f6f;
+  float: left;
+}
+
+.nbr1 {
+  font-size: 15px;
+  font-weight: 500;
+  color: #9d9c9c;
+  margin: 10px 0px 0px -3px;
+  float: left;
+}
+
+.btn_switch_reserv {
+  font-size: 14px;
+  float: right;
+}
+
+.style_btn {
+  background-color: #ffc995;
+  width: 100%;
+  color: white;
+  pointer-events: none;
+  cursor: pointer;
+}
+
+.ctn_double_arrow {
+  position: absolute;
+  right: 45px;
+  top: 74px;
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 5px 2px 0px 7px;
+  z-index: 1;
+  background-color: white;
+}
+
+.double_arrow {
+  font-size: 20px;
+}

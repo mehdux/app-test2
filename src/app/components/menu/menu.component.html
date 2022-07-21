@@ -1,0 +1,91 @@
+<div class="row">
+	<div class="col-lg-12">
+		<h5 class="titre_new_course">Nouvelle course</h5>
+	</div>
+	<div class="ctn_titre_info col-lg-12">
+		<span class="titre_info">Information client</span>
+	</div>
+	<div class="ctn_style_input1 col-lg-6 col-md-6">
+		<label class="style_label" style="margin: 0px 0;">Nom</label>
+		<input class="form-control" type="text" value="" placeholder="Zanbawi"/>
+	</div>
+	<div class="ctn_style_input2 col-lg-6 col-md-6">
+		<label class="style_label" style="margin: 0px 0;">Prenom</label>
+		<input class="form-control" type="text" value="" placeholder="Ahmed"/>
+	</div>
+	<div class="ctn_style_input_phone col-lg-12">
+		<label class="style_label" style="margin: 0px 0;">Numéro de téléphone</label>
+		<input class="form-control" type="text" value="" placeholder="Ex: 05 50 60 70 80"/>
+	</div>
+	<div class="ctn_titre_info2 col-lg-12">
+		<span class="titre_info">Trajet et service</span>
+	</div>
+	<div class="ctn_style_input_defaut col-lg-12">
+		<div class="form-group">
+			<label class="style_label">Départ & destination</label>
+			<div class="inputWithIcon">
+				<i>
+					<mat-icon class="icon_special">
+						<span class="material-icons-round">
+							trip_origin
+						</span>
+					</mat-icon>
+				</i>
+				<span class="label_special">Départ</span>
+				<input type="text" placeholder="Position actuelle"/>
+			</div>
+			<div class="ctn_double_arrow">
+				<mat-icon class="double_arrow">swap_vert</mat-icon>
+			</div>
+			<div class="inputWithIcon" style="border-radius: 0px 0px 20px 20px; border-top: 0px solid;">
+				<i>
+					<mat-icon style="color:black" class="icon_special">
+						<span class="material-icons-round">
+							trip_origin
+						</span>
+					</mat-icon>
+				</i>
+				<span class="label_special">Destination</span>
+				<input type="text" placeholder="Position actuelle" style="border-radius: 0px 0px 20px 20px;"/>
+			</div>
+		</div>
+	</div>
+	<div class="ctn_style_input_defaut col-lg-12">
+		<label class="style_label">Choix du service</label>
+		<div class="dropdown">
+			<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<span [innerHTML]="text"></span>
+			</button>
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				<a class="dropdown-item" (click)="optain($event)">Confort
+					<strong class="demo">350 DA</strong>
+				</a>
+				<a class="dropdown-item" (click)="optain($event)">Classique
+					<strong class="demo">250 DA</strong>
+				</a>
+			</div>
+		</div>
+		<div class="ctn_icon">
+			<mat-icon class="icon1">supervisor_account</mat-icon>
+			<span class="nbr1">
+				4
+			</span>
+			<mat-icon class="icon1" style="margin-left:20px; font-size:17px;">work</mat-icon>
+			<span class="nbr1">
+				3
+			</span>
+		</div>
+	</div>
+	<div class="ctn_titre_info2 col-lg-12">
+		<span class="titre_info">Réservation</span>
+	</div>
+	<div class="ctn_style_input_phone col-lg-12">
+		<label class="style_label" style="font-size:14px;">
+			<mat-icon class="icon1" style="margin-top:1px;">today</mat-icon>
+			Réserver une course à l'avance</label>
+		<mat-slide-toggle class="btn_switch_reserv"></mat-slide-toggle>
+	</div>
+	<div class="ctn_titre_info2 col-lg-12">
+		<button class="btn style_btn">Commander</button>
+	</div>
+</div>

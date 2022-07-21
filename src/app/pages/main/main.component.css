@@ -1,0 +1,109 @@
+.toggle_btn {
+  margin: 40px 0px 0px 0px;
+}
+.ctn_main {
+  background-color: #f7f7f7 !important;
+}
+.ctn_menu {
+  padding-left: 0px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.ctn_toggle_btn {
+  margin: 0px 0px 20px 0px;
+}
+
+.ctn_corps {
+  padding: 10px 0px 0px 20px;
+}
+
+.style_text_corps {
+  float: left;
+}
+
+.ctn_select_trier {
+  margin-right: -8px;
+  float: right;
+  width: 185px;
+}
+
+.style_text_trier {
+  float: left;
+  margin-right: 15px;
+  font-weight: 500;
+}
+
+.select_trier {
+  float: left;
+  width: 50%;
+  margin-top: -5px;
+}
+
+.input_search_corps {
+  whidth: 100%;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+.ctn_style_img_fig1 {
+  height: 45vh;
+  display: table;
+  text-align: center;
+}
+
+.style_img_fig1 {
+}
+
+.ctn_img_fig1 {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.ctn_img_fig2 {
+  vertical-align: bottom;
+  display: table-cell;
+}
+@media only screen and (max-width: 1250px) {
+  .style_img_fig2 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .style_img_fig2 {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .style_img_fig2 {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .style_img_fig2 {
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .style_img_fig1 {
+    width: 20%;
+  }
+}
